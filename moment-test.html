@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Moment.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+<div id = "date-time">
+  <p id = "dtText">Timey!</p>
+</div>
+    
+    <script>
+    var dateTimeDiv = $("#date-time");
+    var dateTimeP = $("#dtText");
+    
+    const today = moment();
+    dateTimeP.text("Today's date is: " + today.format('MM-DD-YYYY'));
+     console.log(today.format("YYYY-MM-DD"));
+  
+    
+  
+    </script>
+  </body>
+</html>
+
+<!-- this contains the script and some test for moment.js -->
+
+<!-- site for moment tips:
+  https://www.sitepoint.com/managing-dates-times-using-moment-js/ -->
+
