@@ -12,9 +12,6 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="src/style.css"/>
     
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="src/script.js"></script>
   </head>
 
   <body>
@@ -29,113 +26,148 @@
       </div>
     </header>
 
-<!-- scheduling form -->
+<!-- scheduling form rows -->
     <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">9 am</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 9 AM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">9 am</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input9am" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button id="btn9am" class="saveBtn">
+              <i class="fas fa-save"></i> 
+            </button> 
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">10 am</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 10 AM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">10 am</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input10am" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">11 am</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 11 AM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">11 am</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input11am" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button> 
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">12 am</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 12 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">12 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input12pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">1 pm</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 1 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+           <p class="hour-style">1 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input1pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">2 pm</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 2 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">2 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input2pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">3 pm</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 3 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">3 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input3pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button> 
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">4 pm</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 4 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">4 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input4pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
-    <div class="container">
-      <div class="row no-gutter">   
-        <div class="hour col-sm-1">
-          <p class="hour-style">5 pm</p>
-        </div> 
-        <div class="col-sm-10">
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
-        </div> 
-        <div class="saveBtn col-sm-1"><i class="fas fa-save"></i>      
+        <!-- 5 PM -->
+        <div class="row no-gutter">   
+          <div class="hour col-sm-1">
+            <p class="hour-style">5 pm</p>
+          </div> 
+          <div class="col-sm-10">
+            <textarea class="form-control" id="input5pm" rows="2"></textarea>
+          </div> 
+          <div class="col-sm-1">
+            <button class="saveBtn">
+              <i class="fas fa-save"></i>  
+            </button>
+          </div>
         </div>
-    </div>
+    
+    <fieldset>
+
+      <legend>Local Storage</legend>
+      <div id = "lsOutput">lalalalalalal</div>
+    
+    </fieldset>
+    </div>  
+      
     
   </body>
 
-<script>
-window.addEventListener('load', (event) => {
-  setDateTime()
-});
-</script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="src/script.js"></script>
 
 </html>

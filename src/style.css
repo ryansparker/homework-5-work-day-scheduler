@@ -16,11 +16,10 @@ body {
   white-space: pre-wrap;
 }
 
-
 .time-block {
   text-align: center;
   margin-top: 20px;
-padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 /* .row {
@@ -70,20 +69,36 @@ textarea{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+  align-content: center;
+  border-width: 0px;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 i {
-  margin-left: 35px;
-  margin-top: 20px;
+  color: white;
+  align-items: center;
 }
+
+i:hover {
+  color: #000000;
+}
+.saveBtn:hover {
+  font-size: 20px;
+  color: #000000;
+  transition: all .3s ease-in-out;
+}
+
 
 .no-gutter > [class*='col-'] {
   padding-right:0;
   padding-left:0;
+}
+
+fieldset {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
