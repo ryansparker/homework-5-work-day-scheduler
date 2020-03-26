@@ -28,6 +28,7 @@ https://stackoverflow.com/questions/27830335/how-to-get-name-of-the-day-from-dat
 
 Tutorials:
 https://www.youtube.com/watch?v=k8yJCeuP6I8
+
 https://www.youtube.com/watch?v=9JRvJ9aMLzc
 
 
@@ -38,12 +39,13 @@ https://www.youtube.com/watch?v=9JRvJ9aMLzc
 
 ## URL
 
+https://ryansparker.github.io/work-day-scheduler/
+
 
 ## GitHub Repository
 
-
-## Review
+https://github.com/ryansparker/work-day-scheduler
 
 
 - - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2020 Ryan Parker All Rights Reserved.
