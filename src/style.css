@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin-bottom: 40px;
 }
 
 .jumbotron {
@@ -22,11 +23,9 @@ body {
   padding-bottom: 0px;
 }
 
-/* .row {
-  white-space: pre-wrap;
-  height: 20px;
+.row {
   border-top: 1px solid white;
-} */
+}
 
 .hour {
   background-color: white;
@@ -62,6 +61,11 @@ textarea{
 .future {
   background-color: #77dd77;
   color: white;
+}
+
+.btnBg {
+  background-color: white;
+
 }
 
 .saveBtn {
