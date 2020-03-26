@@ -1,17 +1,17 @@
 
-//Display Date on heading
+//DATE DISPLAYED
+//display date on heading
 function setDateTime() {
     var dateTimeP = $("#currentDay");
 
     const today = moment();
     dateTimeP.text(today.format("dddd" + ", " + "MMMM" + " " + "DD" + ", " + "YYYY"));
 }
-
 setDateTime();
 
-
-// inputting info into local storage
-
+//----------------------------------
+//LOCAL STORAGE
+//defining variable referencing HTML
 var input9am = document.getElementById("input9am");
 var btn9am = document.getElementById("btn9am");
 var input10am = document.getElementById("input10am");
@@ -31,9 +31,12 @@ var btn4pm = document.getElementById("btn4pm");
 var input5pm = document.getElementById("input5pm");
 var btn5pm = document.getElementById("btn5pm");
 
+//save button to input info into rows
 $(".saveBtn").on("click", function (event) {
+    //keeps information from clearing after page refresh
     event.preventDefault();
-    var textArea = $(this).siblings("textarea").val();
+    //when save button is clicked, the value of the textarea is saved
+    var textArea = $(this).parent(".btnBg").siblings("textarea").val();
     var key = $(this).attr("id");
 
     console.log(textArea);
@@ -42,6 +45,7 @@ $(".saveBtn").on("click", function (event) {
 
 });
 
+//inputting info into local storage
 $("#input9am").val(localStorage.getItem("btn9am"));
 $("#input10am").val(localStorage.getItem("btn10am"));
 $("#input11am").val(localStorage.getItem("btn11am"));
@@ -52,9 +56,9 @@ $("#input3pm").val(localStorage.getItem("btn3pm"));
 $("#input4pm").val(localStorage.getItem("btn4pm"));
 $("#input5pm").val(localStorage.getItem("btn5pm"));
 
-
-// form changes color based on the hour
-
+//--------------------------------------
+//COLOR CHANGE
+//form changes color based on the hour
 function updateBg() {
     var currentHour = moment().hours();
     $(".row").each(function () {
