@@ -90,12 +90,12 @@ i {
 i:hover {
   color: #000000;
 }
+
 .saveBtn:hover {
   font-size: 20px;
   color: #000000;
   transition: all .3s ease-in-out;
 }
-
 
 .no-gutter > [class*='col-'] {
   padding-right:0;
