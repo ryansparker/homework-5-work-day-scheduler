@@ -41,7 +41,19 @@ $(".saveBtn").on("click", function (event) {
     localStorage.setItem(key, textArea);
 
 });
+
 $("#input9am").val(localStorage.getItem("btn9am"));
+$("#input10am").val(localStorage.getItem("btn10am"));
+$("#input11am").val(localStorage.getItem("btn11am"));
+$("#input12pm").val(localStorage.getItem("btn12pm"));
+$("#input1pm").val(localStorage.getItem("btn1pm"));
+$("#input2pm").val(localStorage.getItem("btn2pm"));
+$("#input3pm").val(localStorage.getItem("btn3pm"));
+$("#input4pm").val(localStorage.getItem("btn4pm"));
+$("#input5pm").val(localStorage.getItem("btn5pm"));
+
+
+// form changes color based on the hour
 
 function updateBg() {
     var currentHour = moment().hours();
@@ -54,7 +66,7 @@ function updateBg() {
             $(this).removeClass("past");
             $(this).addClass("present");
 
-        }else {
+        } else {
             $(this).removeClass("past");
             $(this).removeClass("present");
             $(this).addClass("future");
@@ -64,12 +76,4 @@ function updateBg() {
 }
 updateBg();
 
-//Moments' notes
-
-// moment().isAfter("GMT-0400")
-// moment().isBefore("GMT-0400")
-// moment().isSame("GMT-0400")
-
-// var d = moment.duration(3, "days")
-// console.log(d)
 
