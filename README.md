@@ -34,6 +34,10 @@ The following animation demonstrates the application functionality:
 
 ![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
 
+## Images
+
+![](assets/workdaysched.png)
+
 ## Review
 
 You are required to submit the following for review:
