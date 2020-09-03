@@ -1,16 +1,24 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 16px;
   line-height: 1;
   margin-bottom: 40px;
 }
 
+h1 {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: white;
+  padding-bottom: 15px;
+}
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-image: url("../assets/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:#1DA3BB;
   border-radius: 0px;
   border-bottom: 10px solid black;
+  padding: 40px 50px 30px 50px;
 }
 
 .description{
@@ -18,9 +26,16 @@ body {
 }
 
 .time-block {
+  color: white;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
   padding-bottom: 0px;
+}
+
+.time-block p{
+  font-size: 20px;
+  text-transform: uppercase; 
 }
 
 .row {
